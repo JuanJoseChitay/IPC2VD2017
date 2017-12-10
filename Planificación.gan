@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SISTEMA DE RED SOCIAL ORIENTADA A DESARROLLO DE PROYECTOS" company="USAC" webLink="http://" view-date="2017-12-15" view-index="0" gantt-divider-location="512" resource-divider-location="355" version="2.8.5" locale="es">
+    <description><![CDATA[proyecto unico= introduccion a la programacion y computacion 2]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="270" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="99" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="124" order="2"/>
+        <timeline><![CDATA[21,56,34]]></timeline>
+        <option id="color.recent"><![CDATA[#ff6666 #ff9999 #ff0000 #000033 #000099 #0066cc #9933ff #6699ff #3300ff #6666ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="238" order="0"/>
+        <field id="1" name="Función" width="113" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="21" name="FASE 1" color="#00cc00" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" project="true" start="2017-12-06" duration="8" complete="100" thirdDate="2017-12-06" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Objetivos Generales y especificos" color="#ccffcc" meeting="false" start="2017-12-06" duration="1" complete="0" expand="true"/>
+        <task id="23" name="Alcances del proyecto" color="#99ff99" meeting="false" start="2017-12-06" duration="1" complete="0" expand="true"/>
+        <task id="24" name="Panorama General" color="#66ff66" meeting="false" start="2017-12-07" duration="1" complete="0" expand="true"/>
+        <task id="25" name="Funciones del sistema" color="#00cc00" meeting="false" start="2017-12-07" duration="1" complete="0" expand="true"/>
+        <task id="26" name="Atributos del sistema" color="#33ff00" meeting="false" start="2017-12-08" duration="1" complete="0" expand="true"/>
+        <task id="27" name="Definición del cliente" color="#00cc00" meeting="false" start="2017-12-08" duration="1" complete="0" expand="true"/>
+        <task id="28" name="caso de uso alto nivel" color="#006600" meeting="false" start="2017-12-09" duration="4" complete="0" expand="true"/>
+        <task id="29" name="caso de uso expandidos" color="#006600" meeting="false" start="2017-12-09" duration="4" complete="0" expand="true"/>
+        <task id="30" name="modelo conceptual" color="#00ff00" meeting="false" start="2017-12-10" duration="1" complete="0" expand="true"/>
+        <task id="31" name="Diagrama entidad relación" color="#00ff33" meeting="false" start="2017-12-09" duration="3" complete="0" expand="true"/>
+        <task id="33" name="Glosario" color="#99ff99" meeting="false" start="2017-12-13" duration="1" complete="0" expand="true"/>
+        <task id="32" name="Script del sitio Web" color="#006633" meeting="false" start="2017-12-11" duration="3" complete="0" expand="true"/>
+        <task id="34" name="FASE 2" color="#0000ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2017-12-14" duration="14" complete="0" priority="2" expand="true">
+            <depend id="56" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="46" name="casos de uso reales" color="#9999ff" meeting="false" start="2017-12-14" duration="2" complete="0" expand="true"/>
+        <task id="47" name="Diagramas de secuencia" color="#6666ff" meeting="false" start="2017-12-16" duration="2" complete="0" expand="true"/>
+        <task id="48" name="Diagramas de estado" color="#9933ff" meeting="false" start="2017-12-19" duration="3" complete="0" expand="true"/>
+        <task id="49" name="Diagramas de actividad" color="#0066cc" meeting="false" start="2017-12-18" duration="4" complete="0" expand="true"/>
+        <task id="50" name="Diagramas de clases" color="#000099" meeting="false" start="2017-12-19" duration="7" complete="0" expand="true"/>
+        <task id="51" name="Diagramas de colaboración" color="#000033" meeting="false" start="2017-12-23" duration="4" complete="0" expand="true"/>
+        <task id="54" name="script base de datos" color="#6699ff" meeting="false" start="2017-12-14" duration="6" complete="0" expand="true"/>
+        <task id="55" name="consultas c#" color="#3300ff" meeting="false" start="2017-12-16" duration="12" complete="0" expand="true"/>
+        <task id="56" name="FASE 3" color="#ff0000" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2017-12-28" duration="12" complete="0" expand="true"/>
+        <task id="57" name="Diagramas de despliegue" color="#ff6666" meeting="false" start="2017-12-28" duration="6" complete="0" expand="true"/>
+        <task id="58" name="Diagramas de componentes" color="#ff6666" meeting="false" start="2017-12-28" duration="4" complete="0" expand="true"/>
+        <task id="59" name="Reportes" color="#ff9999" meeting="false" start="2017-12-30" duration="10" complete="0" expand="true"/>
+        <task id="60" name="Aplicación" color="#ff0000" meeting="false" start="2017-12-28" duration="10" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
